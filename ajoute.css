@@ -1,0 +1,54 @@
+/* Style pour les labels */
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style pour les input et select */
+  input[type="text"],
+  input[type="email"],
+  select {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style pour les boutons */
+  button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Style pour le container principal */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style pour les messages d'erreur */
+  .error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  

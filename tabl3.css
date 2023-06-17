@@ -1,0 +1,92 @@
+
+  
+/* Style pour la section header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  
+  header a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style pour le bouton d'ajout d'utilisateur */
+  button {
+    background-color: #27292c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style pour le titre de la table */
+  .table__header h1 {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Style pour le corps de la table */
+  .table__body {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style pour la section information */
+  .table__body h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  table p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+  }

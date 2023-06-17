@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body
+{
+margin: 0;
+padding: 0;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+font-family: 'poppins',sans-serif;
+background-image: url(./images/photo-1530293959042-0aac487c21e3.jfif);
+background-size: cover;
+}
+.container
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.container .box
+{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.container .box::before
+{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+    z-index: 2;
+    pointer-events: none;
+}
+.container .box .icon
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.container .box:nth-child() .icon
+{
+    box-shadow: 0 0 0 0 #077BFF;
+    background: #077BFF;
+}
+.container .box:nth-child():hover .icon
+{
+    box-shadow: 0 0 0 400px #077BFF;
+}
+
+
+.container .box .content
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .box:hover .content
+{
+    color: #fff;
+
+}
+.container .box .content h3
+{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+.container .box .content p
+{
+    margin: 0;
+    padding: 0;
+}
+button[type="sub"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #077bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button[type="sub"]:hover{
+    background-color: #1E90FF;
+}
+button[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #077bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button[type="submit"]:hover{
+    background-color: #1E90FF;
+}
